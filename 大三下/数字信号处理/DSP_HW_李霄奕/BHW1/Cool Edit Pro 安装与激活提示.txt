@@ -1,0 +1,8 @@
+Cool Edit Pro安装流程：
+1.打开cep_v2.0 setup.exe（安装程序）并根据程序步骤安装Cool Edit Pro
+支持的音频类型可以考虑全选，也可按默认设置安装
+此时安装的是试用版本，部分功能有时间限制
+2.安装Cool Edit Pro完成后关闭Cool Edit Pro，然后打开cep2reg.exe（注册机程序），在注册界面输入如下的用户名与序列码信息：
+Name:   Peter Quistgard 
+Serial: 200-00-37YQOQ7L 
+即可完成注册。
