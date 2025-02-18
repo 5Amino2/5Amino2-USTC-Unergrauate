@@ -1,0 +1,4 @@
+`timescale 10ms/1ms
+module exp04_lxy_tb();
+
+endmodule

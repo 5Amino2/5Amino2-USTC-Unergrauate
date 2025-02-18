@@ -1,0 +1,15 @@
+`timescale 10ns/1ns
+module exp05_lxy();
+	reg CLK,RST;
+	wire [7:0] Q;
+	
+	initial CLK=0;
+	always #1 CLK=~CLK;
+	
+	initial begin
+		#0 RST=0;
+	end
+	
+	EXP5 U1(CLK,RST,Q);
+	
+endmodule

@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/exp05_lxy/simulation/modelsim
+T_opt
+!s110 1699447270
+V`[Xk26NI1?Y[7XX]PZJ=M3
+04 12 4 work exp05_lxy_tb fast 0
+=1-bc0ff3bfd923-654b81e5-3c7-2060
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vexp05_lxy
+Z1 !s110 1699447269
+!i10b 1
+!s100 77O`6XG2EPajOOUZ0:>J;2
+IZ2Bd:mn7o9;XA`:EoNE;12
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1699447223
+8C:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy.v
+FC:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1699447269.685000
+!s107 C:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/exp05_lxy|C:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/exp05_lxy -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vexp05_lxy_tb
+R1
+!i10b 1
+!s100 bR<N`e2IkzK5Lnf`M3QMS2
+Ibd[5Z]@cRNVX=@g<ETNdV1
+R2
+R0
+w1699446182
+8C:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy_tb.v
+FC:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1699447269.810000
+!s107 C:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/exp05_lxy|C:/Users/Administrator/Desktop/exp05_lxy/exp05_lxy_tb.v|
+!i113 0
+R4
+R5
+vmystorage
+R1
+!i10b 1
+!s100 f^1OXbE9I6n33Wid;jJm@2
+IgNNKMMcYSm=Fm=Y9XZHbe0
+R2
+R0
+w1699441246
+8C:/Users/Administrator/Desktop/exp05_lxy/mystorage.v
+FC:/Users/Administrator/Desktop/exp05_lxy/mystorage.v
+L0 39
+R3
+r1
+!s85 0
+31
+!s108 1699447269.748000
+!s107 C:/Users/Administrator/Desktop/exp05_lxy/mystorage.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/exp05_lxy|C:/Users/Administrator/Desktop/exp05_lxy/mystorage.v|
+!i113 0
+R4
+R5

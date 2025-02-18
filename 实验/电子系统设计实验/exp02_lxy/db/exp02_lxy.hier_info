@@ -1,0 +1,249 @@
+|exp02_lxy
+sys_clk => sys_clk.IN1
+en => en.IN2
+data_in[0] => data_in[0].IN1
+data_in[1] => data_in[1].IN1
+data_in[2] => data_in[2].IN1
+data_in[3] => data_in[3].IN1
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
+sel[2] => sel[2].IN1
+data_out[0] <= decoder_47_lxy:decoder_47_inst.port1
+data_out[1] <= decoder_47_lxy:decoder_47_inst.port1
+data_out[2] <= decoder_47_lxy:decoder_47_inst.port1
+data_out[3] <= decoder_47_lxy:decoder_47_inst.port1
+data_out[4] <= decoder_47_lxy:decoder_47_inst.port1
+data_out[5] <= decoder_47_lxy:decoder_47_inst.port1
+data_out[6] <= decoder_47_lxy:decoder_47_inst.port1
+data_out[7] <= decoder_47_lxy:decoder_47_inst.port1
+cs_led[0] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+cs_led[1] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+cs_led[2] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+cs_led[3] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+cs_led[4] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+cs_led[5] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+cs_led[6] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+cs_led[7] <= cs_led.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_47_lxy:decoder_47_inst
+data_in[0] => Decoder0.IN3
+data_in[1] => Decoder0.IN2
+data_in[2] => Decoder0.IN1
+data_in[3] => Decoder0.IN0
+data_out[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst
+sel[0] => Decoder0.IN2
+sel[0] => Decoder1.IN2
+sel[0] => Decoder2.IN2
+sel[0] => Decoder3.IN2
+sel[0] => Decoder4.IN2
+sel[0] => Decoder5.IN2
+sel[0] => Decoder6.IN2
+sel[0] => Decoder7.IN2
+sel[1] => Decoder0.IN1
+sel[1] => Decoder1.IN1
+sel[1] => Decoder2.IN1
+sel[1] => Decoder3.IN1
+sel[1] => Decoder4.IN1
+sel[1] => Decoder5.IN1
+sel[1] => Decoder6.IN1
+sel[1] => Decoder7.IN1
+sel[2] => Decoder0.IN0
+sel[2] => Decoder1.IN0
+sel[2] => Decoder2.IN0
+sel[2] => Decoder3.IN0
+sel[2] => Decoder4.IN0
+sel[2] => Decoder5.IN0
+sel[2] => Decoder6.IN0
+sel[2] => Decoder7.IN0
+data_in[0] => data_in[0].IN8
+data_in[1] => data_in[1].IN8
+data_in[2] => data_in[2].IN8
+data_in[3] => data_in[3].IN8
+en => en.IN8
+data_out_0[0] <= D_unit_lxy:D_unit_lxy_inst_0.data_out
+data_out_0[1] <= D_unit_lxy:D_unit_lxy_inst_0.data_out
+data_out_0[2] <= D_unit_lxy:D_unit_lxy_inst_0.data_out
+data_out_0[3] <= D_unit_lxy:D_unit_lxy_inst_0.data_out
+data_out_1[0] <= D_unit_lxy:D_unit_lxy_inst_1.data_out
+data_out_1[1] <= D_unit_lxy:D_unit_lxy_inst_1.data_out
+data_out_1[2] <= D_unit_lxy:D_unit_lxy_inst_1.data_out
+data_out_1[3] <= D_unit_lxy:D_unit_lxy_inst_1.data_out
+data_out_2[0] <= D_unit_lxy:D_unit_lxy_inst_2.data_out
+data_out_2[1] <= D_unit_lxy:D_unit_lxy_inst_2.data_out
+data_out_2[2] <= D_unit_lxy:D_unit_lxy_inst_2.data_out
+data_out_2[3] <= D_unit_lxy:D_unit_lxy_inst_2.data_out
+data_out_3[0] <= D_unit_lxy:D_unit_lxy_inst_3.data_out
+data_out_3[1] <= D_unit_lxy:D_unit_lxy_inst_3.data_out
+data_out_3[2] <= D_unit_lxy:D_unit_lxy_inst_3.data_out
+data_out_3[3] <= D_unit_lxy:D_unit_lxy_inst_3.data_out
+data_out_4[0] <= D_unit_lxy:D_unit_lxy_inst_4.data_out
+data_out_4[1] <= D_unit_lxy:D_unit_lxy_inst_4.data_out
+data_out_4[2] <= D_unit_lxy:D_unit_lxy_inst_4.data_out
+data_out_4[3] <= D_unit_lxy:D_unit_lxy_inst_4.data_out
+data_out_5[0] <= D_unit_lxy:D_unit_lxy_inst_5.data_out
+data_out_5[1] <= D_unit_lxy:D_unit_lxy_inst_5.data_out
+data_out_5[2] <= D_unit_lxy:D_unit_lxy_inst_5.data_out
+data_out_5[3] <= D_unit_lxy:D_unit_lxy_inst_5.data_out
+data_out_6[0] <= D_unit_lxy:D_unit_lxy_inst_6.data_out
+data_out_6[1] <= D_unit_lxy:D_unit_lxy_inst_6.data_out
+data_out_6[2] <= D_unit_lxy:D_unit_lxy_inst_6.data_out
+data_out_6[3] <= D_unit_lxy:D_unit_lxy_inst_6.data_out
+data_out_7[0] <= D_unit_lxy:D_unit_lxy_inst_7.data_out
+data_out_7[1] <= D_unit_lxy:D_unit_lxy_inst_7.data_out
+data_out_7[2] <= D_unit_lxy:D_unit_lxy_inst_7.data_out
+data_out_7[3] <= D_unit_lxy:D_unit_lxy_inst_7.data_out
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_0
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_1
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_2
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_3
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_4
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_5
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_6
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|decoder_38_lxy:decoder_38_lxy_inst|D_unit_lxy:D_unit_lxy_inst_7
+cs_n => always0.IN0
+en => always0.IN1
+data_in[0] => data_out[0]$latch.DATAIN
+data_in[1] => data_out[1]$latch.DATAIN
+data_in[2] => data_out[2]$latch.DATAIN
+data_in[3] => data_out[3]$latch.DATAIN
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp02_lxy|state_lxy:state_inst
+sys_clk => st[0]~reg0.CLK
+sys_clk => st[1]~reg0.CLK
+sys_clk => st[2]~reg0.CLK
+sys_clk => div[0].CLK
+sys_clk => div[1].CLK
+sys_clk => div[2].CLK
+sys_clk => div[3].CLK
+sys_clk => div[4].CLK
+sys_clk => div[5].CLK
+sys_clk => div[6].CLK
+sys_clk => div[7].CLK
+sys_clk => div[8].CLK
+sys_clk => div[9].CLK
+sys_clk => div[10].CLK
+sys_clk => div[11].CLK
+sys_clk => div[12].CLK
+en => div[0].ACLR
+en => div[1].ACLR
+en => div[2].ACLR
+en => div[3].ACLR
+en => div[4].ACLR
+en => div[5].ACLR
+en => div[6].ACLR
+en => div[7].ACLR
+en => div[8].ACLR
+en => div[9].ACLR
+en => div[10].ACLR
+en => div[11].ACLR
+en => div[12].ACLR
+en => st[0]~reg0.ACLR
+en => st[1]~reg0.ACLR
+en => st[2]~reg0.ACLR
+st[0] <= st[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+st[1] <= st[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+st[2] <= st[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

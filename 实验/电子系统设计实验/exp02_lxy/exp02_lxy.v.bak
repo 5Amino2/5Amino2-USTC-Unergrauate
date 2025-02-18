@@ -1,0 +1,109 @@
+module exp02_lxy 
+#(
+    parameter DIV_MAX = 13'd99_999
+)
+(
+    input   wire            sys_clk,
+    input   wire            en,
+    input   wire    [3:0]   data_in,
+    input   wire    [2:0]   sel,
+
+    output  wire    [7:0]   data_out,
+    output  reg     [7:0]   cs_led
+);
+reg [12:0] div;
+reg [2:0]   st;
+
+wire    [3:0]   data_out_0;
+wire    [3:0]   data_out_1;
+wire    [3:0]   data_out_2;
+wire    [3:0]   data_out_3;
+wire    [3:0]   data_out_4;
+wire    [3:0]   data_out_5;
+wire    [3:0]   data_out_6;
+wire    [3:0]   data_out_7;
+
+reg     [3:0]   data_out_seled;
+
+wire    [7:0]   data_out_temp;
+
+always @(posedge sys_clk or negedge en) begin
+    if (en == 1'b0) begin
+        div <= 13'd0;
+    end
+    else if (div == DIV_MAX) begin
+        div <= 13'd0;
+    end
+    else  begin
+        div <= div + 1'b1;
+    end
+end
+
+always @(posedge sys_clk or negedge en) begin
+    if (en == 1'b0) begin
+        st <= 3'd0;
+    end
+    else  if (div == DIV_MAX) begin
+        st <= st + 1'b1;
+    end
+    else begin
+        st <= st;
+    end
+end
+
+decoder_38 decoder_38_inst(
+    .sel(sel),
+    .data_in(data_in),
+    .en(en),
+    
+    .data_out_0(data_out_0),
+    .data_out_1(data_out_1),
+    .data_out_2(data_out_2),
+    .data_out_3(data_out_3),
+    .data_out_4(data_out_4),
+    .data_out_5(data_out_5),
+    .data_out_6(data_out_6),
+    .data_out_7(data_out_7)
+);
+
+always @(*) begin
+    if (en == 1'b0) begin
+        cs_led <= 8'b0000_0000;
+    end
+    else case (st)
+        3'd0:cs_led <= 8'b0000_0001;
+        3'd1:cs_led <= 8'b0000_0010;
+        3'd2:cs_led <= 8'b0000_0100;
+        3'd3:cs_led <= 8'b0000_1000;
+        3'd4:cs_led <= 8'b0001_0000;
+        3'd5:cs_led <= 8'b0010_0000;
+        3'd6:cs_led <= 8'b0100_0000;
+        3'd7:cs_led <= 8'b1000_0000;
+    endcase
+end
+
+always @(*) begin
+    if (en == 1'b0) begin
+        data_out_seled <= 4'd0;
+    end
+    else case (st)
+        3'd0:data_out_seled <= data_out_0;
+        3'd1:data_out_seled <= data_out_1;
+        3'd2:data_out_seled <= data_out_2;
+        3'd3:data_out_seled <= data_out_3;
+        3'd4:data_out_seled <= data_out_4;
+        3'd5:data_out_seled <= data_out_5;
+        3'd6:data_out_seled <= data_out_6;
+        3'd7:data_out_seled <= data_out_7; 
+    endcase
+end
+
+decoder_47 decoder_47_inst(
+    .data_in(data_out_seled),
+
+    .data_out(data_out_temp)//[6:0]:a,b,c,d,e,f,g,dp
+);
+
+assign data_out = data_out_temp;
+
+endmodule

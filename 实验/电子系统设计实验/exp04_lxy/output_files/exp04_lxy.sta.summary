@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'state:state_1|st[0]'
+Slack : -4.672
+TNS   : -28.644
+
+Type  : Slow 1100mV 85C Model Setup 'sys_clk'
+Slack : -2.874
+TNS   : -45.514
+
+Type  : Slow 1100mV 85C Model Setup 'devender:devender_1|clk'
+Slack : -1.713
+TNS   : -3.258
+
+Type  : Slow 1100mV 85C Model Setup 'read_code[0]'
+Slack : -1.522
+TNS   : -5.229
+
+Type  : Slow 1100mV 85C Model Hold 'read_code[0]'
+Slack : -3.932
+TNS   : -14.278
+
+Type  : Slow 1100mV 85C Model Hold 'sys_clk'
+Slack : -1.438
+TNS   : -1.438
+
+Type  : Slow 1100mV 85C Model Hold 'devender:devender_1|clk'
+Slack : -0.791
+TNS   : -2.211
+
+Type  : Slow 1100mV 85C Model Hold 'state:state_1|st[0]'
+Slack : -0.315
+TNS   : -0.315
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.724
+TNS   : -17.803
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : -0.724
+TNS   : -3.534
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'read_code[0]'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'state:state_1|st[0]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'state:state_1|st[0]'
+Slack : -4.788
+TNS   : -28.769
+
+Type  : Slow 1100mV 0C Model Setup 'sys_clk'
+Slack : -2.931
+TNS   : -46.611
+
+Type  : Slow 1100mV 0C Model Setup 'devender:devender_1|clk'
+Slack : -1.805
+TNS   : -3.488
+
+Type  : Slow 1100mV 0C Model Setup 'read_code[0]'
+Slack : -1.685
+TNS   : -5.805
+
+Type  : Slow 1100mV 0C Model Hold 'read_code[0]'
+Slack : -3.840
+TNS   : -14.068
+
+Type  : Slow 1100mV 0C Model Hold 'sys_clk'
+Slack : -1.520
+TNS   : -1.520
+
+Type  : Slow 1100mV 0C Model Hold 'devender:devender_1|clk'
+Slack : -0.619
+TNS   : -1.681
+
+Type  : Slow 1100mV 0C Model Hold 'state:state_1|st[0]'
+Slack : -0.266
+TNS   : -0.266
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.724
+TNS   : -17.714
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : -0.724
+TNS   : -3.509
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'read_code[0]'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'state:state_1|st[0]'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'state:state_1|st[0]'
+Slack : -1.508
+TNS   : -8.182
+
+Type  : Fast 1100mV 85C Model Setup 'sys_clk'
+Slack : -0.797
+TNS   : -10.223
+
+Type  : Fast 1100mV 85C Model Setup 'devender:devender_1|clk'
+Slack : -0.294
+TNS   : -0.514
+
+Type  : Fast 1100mV 85C Model Setup 'read_code[0]'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'read_code[0]'
+Slack : -2.125
+TNS   : -7.580
+
+Type  : Fast 1100mV 85C Model Hold 'sys_clk'
+Slack : -0.608
+TNS   : -0.608
+
+Type  : Fast 1100mV 85C Model Hold 'devender:devender_1|clk'
+Slack : -0.522
+TNS   : -1.473
+
+Type  : Fast 1100mV 85C Model Hold 'state:state_1|st[0]'
+Slack : -0.186
+TNS   : -0.219
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.314
+TNS   : -1.736
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'read_code[0]'
+Slack : -0.021
+TNS   : -0.042
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'state:state_1|st[0]'
+Slack : 0.285
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'state:state_1|st[0]'
+Slack : -1.481
+TNS   : -7.598
+
+Type  : Fast 1100mV 0C Model Setup 'sys_clk'
+Slack : -0.775
+TNS   : -8.970
+
+Type  : Fast 1100mV 0C Model Setup 'devender:devender_1|clk'
+Slack : -0.257
+TNS   : -0.455
+
+Type  : Fast 1100mV 0C Model Setup 'read_code[0]'
+Slack : 0.209
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'read_code[0]'
+Slack : -2.078
+TNS   : -7.489
+
+Type  : Fast 1100mV 0C Model Hold 'sys_clk'
+Slack : -0.682
+TNS   : -0.682
+
+Type  : Fast 1100mV 0C Model Hold 'devender:devender_1|clk'
+Slack : -0.479
+TNS   : -1.347
+
+Type  : Fast 1100mV 0C Model Hold 'state:state_1|st[0]'
+Slack : -0.163
+TNS   : -0.418
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.305
+TNS   : -1.724
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'read_code[0]'
+Slack : -0.013
+TNS   : -0.020
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'state:state_1|st[0]'
+Slack : 0.327
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,99 @@
+|exp04_lxy
+sys_clk => sys_clk.IN1
+scan_code[0] <= scan:scan_1.port1
+scan_code[1] <= scan:scan_1.port1
+scan_code[2] <= scan:scan_1.port1
+scan_code[3] <= scan:scan_1.port1
+read_code[0] => read_code[0].IN1
+read_code[1] => read_code[1].IN1
+read_code[2] => read_code[2].IN1
+read_code[3] => read_code[3].IN1
+led[0] <= decoder4_7:decoder4_7_1.port1
+led[1] <= decoder4_7:decoder4_7_1.port1
+led[2] <= decoder4_7:decoder4_7_1.port1
+led[3] <= decoder4_7:decoder4_7_1.port1
+led[4] <= decoder4_7:decoder4_7_1.port1
+led[5] <= decoder4_7:decoder4_7_1.port1
+led[6] <= decoder4_7:decoder4_7_1.port1
+led[7] <= decoder4_7:decoder4_7_1.port1
+on <= <VCC>
+
+
+|exp04_lxy|devender:devender_1
+sys_clk => clk~reg0.CLK
+sys_clk => div[0].CLK
+sys_clk => div[1].CLK
+sys_clk => div[2].CLK
+sys_clk => div[3].CLK
+sys_clk => div[4].CLK
+sys_clk => div[5].CLK
+sys_clk => div[6].CLK
+sys_clk => div[7].CLK
+sys_clk => div[8].CLK
+sys_clk => div[9].CLK
+sys_clk => div[10].CLK
+sys_clk => div[11].CLK
+sys_clk => div[12].CLK
+clk <= clk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp04_lxy|state:state_1
+clk => st[0]~reg0.CLK
+clk => st[1]~reg0.CLK
+clk => st[2]~reg0.CLK
+st[0] <= st[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+st[1] <= st[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+st[2] <= st[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp04_lxy|scan:scan_1
+st[0] => Mux0.IN10
+st[0] => Mux1.IN10
+st[0] => Mux2.IN10
+st[0] => Mux3.IN10
+st[0] => Mux4.IN10
+st[1] => Mux0.IN9
+st[1] => Mux1.IN9
+st[1] => Mux2.IN9
+st[1] => Mux3.IN9
+st[1] => Mux4.IN9
+st[2] => Mux0.IN8
+st[2] => Mux1.IN8
+st[2] => Mux2.IN8
+st[2] => Mux3.IN8
+st[2] => Mux4.IN8
+scan_code[0] <= scan_code[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+scan_code[1] <= scan_code[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+scan_code[2] <= scan_code[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+scan_code[3] <= scan_code[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp04_lxy|read:read_1
+st[0] => Decoder0.IN2
+st[1] => Decoder0.IN1
+st[2] => Decoder0.IN0
+read_code[0] => Decoder0.IN6
+read_code[1] => Decoder0.IN5
+read_code[2] => Decoder0.IN4
+read_code[3] => Decoder0.IN3
+data_out[0] <= data_out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exp04_lxy|decoder4_7:decoder4_7_1
+data_in[0] => Decoder0.IN3
+data_in[1] => Decoder0.IN2
+data_in[2] => Decoder0.IN1
+data_in[3] => Decoder0.IN0
+data_out[0] <= <VCC>
+data_out[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/24251/Desktop/exp02_lxy/simulation/modelsim
+T_opt
+!s110 1698741215
+VQ<KWO8W^LlJmT=O9kXYXT3
+04 17 4 work decoder_38_tb_lxy fast 0
+=1-ec2e9830f217-6540bbde-336-a44
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+vD_unit_lxy
+Z2 !s110 1698741214
+!i10b 1
+!s100 992S7OV3AX_^4nMoSLX<H0
+I0E[6e<b@]bA]8nDez:Ab@0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1698740558
+8C:/Users/24251/Desktop/exp02_lxy/d_unit_lxy.v
+FC:/Users/24251/Desktop/exp02_lxy/d_unit_lxy.v
+L0 1
+Z4 OL;L;10.7;67
+r1
+!s85 0
+31
+Z5 !s108 1698741214.000000
+!s107 C:/Users/24251/Desktop/exp02_lxy/d_unit_lxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/24251/Desktop/exp02_lxy|C:/Users/24251/Desktop/exp02_lxy/d_unit_lxy.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/24251/Desktop/exp02_lxy -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@d_unit_lxy
+vdecoder_38_lxy
+Z8 !s110 1698741210
+!i10b 1
+!s100 Q_HiIm8e3jfL>g60Zj@oD2
+IlAORCXDiKI79jKmi2YcOi1
+R3
+R0
+w1698740862
+8C:/Users/24251/Desktop/exp02_lxy/decoder_38_lxy.v
+FC:/Users/24251/Desktop/exp02_lxy/decoder_38_lxy.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1698741210.000000
+!s107 C:/Users/24251/Desktop/exp02_lxy/decoder_38_lxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/24251/Desktop/exp02_lxy|C:/Users/24251/Desktop/exp02_lxy/decoder_38_lxy.v|
+!i113 0
+R6
+R7
+R1
+vdecoder_38_tb_lxy
+R2
+!i10b 1
+!s100 A2h5hf[[AbIWkJ``IN`>61
+IzNnS<<A>GEm:ne@<_8S^T1
+R3
+R0
+w1698740689
+8C:/Users/24251/Desktop/exp02_lxy/decoder_38_tb_lxy.v
+FC:/Users/24251/Desktop/exp02_lxy/decoder_38_tb_lxy.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/24251/Desktop/exp02_lxy/decoder_38_tb_lxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/24251/Desktop/exp02_lxy|C:/Users/24251/Desktop/exp02_lxy/decoder_38_tb_lxy.v|
+!i113 0
+R6
+R7
+R1
+vdecoder_47_lxy
+R8
+!i10b 1
+!s100 [>TA=@kS4k=2GTYKLdG@H3
+IAf9i4WeK>fU2]U2kjRXPn1
+R3
+R0
+w1698740732
+8C:/Users/24251/Desktop/exp02_lxy/decoder_47_lxy.v
+FC:/Users/24251/Desktop/exp02_lxy/decoder_47_lxy.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/24251/Desktop/exp02_lxy/decoder_47_lxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/24251/Desktop/exp02_lxy|C:/Users/24251/Desktop/exp02_lxy/decoder_47_lxy.v|
+!i113 0
+R6
+R7
+R1
+vexp02_lxy
+R8
+!i10b 1
+!s100 TbN>cSlXh5zdlMeBV9RT=1
+I_]A>NORHUg:X4<I7E1TO50
+R3
+R0
+w1698740833
+8C:/Users/24251/Desktop/exp02_lxy/exp02_lxy.v
+FC:/Users/24251/Desktop/exp02_lxy/exp02_lxy.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1698741209.000000
+!s107 C:/Users/24251/Desktop/exp02_lxy/exp02_lxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/24251/Desktop/exp02_lxy|C:/Users/24251/Desktop/exp02_lxy/exp02_lxy.v|
+!i113 0
+R6
+R7
+R1
+vstate_lxy
+R2
+!i10b 1
+!s100 `6VVO11cOAC>z7RU;Gzid3
+I=?V7hNizg0_eK_[;ohdBN2
+R3
+R0
+w1698740759
+8C:/Users/24251/Desktop/exp02_lxy/state_lxy.v
+FC:/Users/24251/Desktop/exp02_lxy/state_lxy.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/24251/Desktop/exp02_lxy/state_lxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/24251/Desktop/exp02_lxy|C:/Users/24251/Desktop/exp02_lxy/state_lxy.v|
+!i113 0
+R6
+R7
+R1

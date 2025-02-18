@@ -1,0 +1,15 @@
+module exp05_lxy(CLK,RST,Q);
+	input CLK,RST;
+	output [7:0] Q;
+	reg [9:0] count;
+	
+	initial count=10'b0000000000;
+	
+	always @(posedge CLK )
+	begin
+		if(RST) count=10'b0000000000;
+		else count=(count==10'b11111111111)?10'b0000000000:count+1;
+	end
+	
+	mystorage U1(count,CLK,Q);
+endmodule

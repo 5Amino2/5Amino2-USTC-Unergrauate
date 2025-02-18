@@ -1,0 +1,23 @@
+module exp04_lxy();
+
+endmodule
+
+module devender(sys_clk,clk);
+parameter DIV_MAX=13'd99999;
+input sys_clk;
+output reg clk;
+reg [12:0] div;
+always @(posedge sys_clk) begin
+div<=(div==DIV_MAX)?0:(div+1);
+end
+always @(posedge sys_clk) begin
+clk<=(div==DIV_MAX)?(~clk):clk;
+end
+endmodule
+
+module scan(clk,scan_code);
+input clk;
+output reg [3:0] scan_code;
+
+endmodule
+

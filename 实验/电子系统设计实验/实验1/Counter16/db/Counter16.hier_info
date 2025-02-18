@@ -1,0 +1,15 @@
+|Counter16
+CLK => d[0].CLK
+CLK => d[1].CLK
+CLK => d[2].CLK
+CLK => d[3].CLK
+RST => d[0].ACLR
+RST => d[1].ACLR
+RST => d[2].ACLR
+RST => d[3].ACLR
+DOUT[0] <= d[0].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[1] <= d[1].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[2] <= d[2].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[3] <= d[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

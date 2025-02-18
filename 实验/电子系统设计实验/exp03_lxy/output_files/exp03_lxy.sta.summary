@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'sys_clk'
+Slack : -2.829
+TNS   : -44.814
+
+Type  : Slow 1100mV 85C Model Setup 'devender:devender_1|clk'
+Slack : -1.785
+TNS   : -27.537
+
+Type  : Slow 1100mV 85C Model Hold 'sys_clk'
+Slack : -1.678
+TNS   : -1.678
+
+Type  : Slow 1100mV 85C Model Hold 'devender:devender_1|clk'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : -0.724
+TNS   : -26.929
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.724
+TNS   : -17.802
+
+Type  : Slow 1100mV 0C Model Setup 'sys_clk'
+Slack : -2.853
+TNS   : -45.445
+
+Type  : Slow 1100mV 0C Model Setup 'devender:devender_1|clk'
+Slack : -1.840
+TNS   : -27.758
+
+Type  : Slow 1100mV 0C Model Hold 'sys_clk'
+Slack : -1.673
+TNS   : -1.673
+
+Type  : Slow 1100mV 0C Model Hold 'devender:devender_1|clk'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : -0.724
+TNS   : -26.779
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.724
+TNS   : -17.754
+
+Type  : Fast 1100mV 85C Model Setup 'sys_clk'
+Slack : -0.842
+TNS   : -9.859
+
+Type  : Fast 1100mV 85C Model Setup 'devender:devender_1|clk'
+Slack : -0.333
+TNS   : -4.008
+
+Type  : Fast 1100mV 85C Model Hold 'sys_clk'
+Slack : -0.637
+TNS   : -0.637
+
+Type  : Fast 1100mV 85C Model Hold 'devender:devender_1|clk'
+Slack : -0.023
+TNS   : -0.023
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.332
+TNS   : -1.694
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'sys_clk'
+Slack : -0.821
+TNS   : -8.509
+
+Type  : Fast 1100mV 0C Model Setup 'devender:devender_1|clk'
+Slack : -0.282
+TNS   : -2.722
+
+Type  : Fast 1100mV 0C Model Hold 'sys_clk'
+Slack : -0.689
+TNS   : -0.689
+
+Type  : Fast 1100mV 0C Model Hold 'devender:devender_1|clk'
+Slack : -0.027
+TNS   : -0.027
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : -0.330
+TNS   : -1.707
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'devender:devender_1|clk'
+Slack : 0.138
+TNS   : 0.000
+
+------------------------------------------------------------

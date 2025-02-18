@@ -1,0 +1,7 @@
+0 0 2015 1 2 qwe wer
+1 0 1111 2 3 qwe wer
+2 2 2222 4 4 qwe wer
+3 0 3333 6 5 qwe wer
+4 1 4444 0 6 qwe wer
+5 0 5678 7 8 qas ertgd
+
