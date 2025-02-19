@@ -13,7 +13,7 @@
 众所周知，根据中心极限定理，一串i.i.d随机变量足够多，最后的统计分布都是：
 
 $$
-f(\mu,\sigma)=\dfrac{1}{\sqrt{2\pi \sigma^2}}e^{-\dfrac{(x-\mu)^2}{2\sigma^2}}
+f_{\mu,\sigma}(x)=\dfrac{1}{\sqrt{2\pi \sigma^2}}e^{-\dfrac{(x-\mu)^2}{2\sigma^2}}
 $$
 
 这是铁律，99.74%的人过着不上不下的生活，拿着不上不下的成绩，被牢牢套在长度为 $6\sigma$ 的区间里。
